@@ -5,4 +5,6 @@ module com.example.chatsystema2 {
 
     opens com.example.chatsystema2 to javafx.fxml;
     exports com.example.chatsystema2;
+    exports com.example.chatsystema2.View;
+    opens com.example.chatsystema2.View to javafx.fxml;
 }

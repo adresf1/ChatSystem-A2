@@ -1,9 +1,9 @@
-package com.example.chatsystema2;
+package com.example.chatsystema2.View;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class ChatSystemServerView {
     @FXML
     private Label welcomeText;
 
