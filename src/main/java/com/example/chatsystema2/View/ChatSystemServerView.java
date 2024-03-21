@@ -1,14 +1,21 @@
 package com.example.chatsystema2.View;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.control.Button;
+import javafx.collections.FXCollections;
+import javafx.scene.control.TextField;
 
 public class ChatSystemServerView {
-    @FXML
-    private Label welcomeText;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
+
+    @FXML   private TextField textinput;
+
+    @FXML    private Button submit;
+
+
+@FXML public void OnSubmitPressed(){
+
 }
+
+
+    }
