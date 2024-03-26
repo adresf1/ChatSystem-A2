@@ -1,3 +1,5 @@
+package com.example.chatsystema2.View;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -7,8 +9,9 @@ public class ServerConnection
 {
     private ObjectInputStream fromClient;
     private ObjectOutputStream toClient;
-    private ConnectionPool connectionPool;
 
-    public ServerConnection(Socket )
+    public ServerConnection(Socket d){
+
+    }
 
 }
