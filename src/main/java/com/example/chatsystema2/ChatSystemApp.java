@@ -6,7 +6,7 @@ import com.example.chatsystema2.Core.ClientFactory;
 import com.example.chatsystema2.Core.ModelFactory;
 import com.example.chatsystema2.Core.ViewHandler;
 import com.example.chatsystema2.Core.ViewModelFactory;
-1
+
 public class ChatSystemApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
