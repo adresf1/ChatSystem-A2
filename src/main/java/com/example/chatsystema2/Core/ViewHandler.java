@@ -1,5 +1,6 @@
 package com.example.chatsystema2.Core;
 
+import com.example.chatsystema2.ChatSystemApplication;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -27,7 +28,7 @@ public class ViewHandler {
     public void openChatSystemView(){
         if (ChatSystemClientScene == null) {
             try {
-                Parent root = loadFXML("../View/ChatSystemClient/ChatSystemClientView.fxml");
+                Parent root = loadFXML("/com/example/chatsystema2/View/ChatSystemClient/ChatSystemClientView.fxml");
 
                 stage.setTitle("Chat System Client");
                 ChatSystemClientScene = new Scene(root);
@@ -48,6 +49,16 @@ public class ViewHandler {
         ctrl.init(this, vmf);
         return root;
     }
+
+
+
+    /*
+    private Parent loadFXML(String path) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(path));
+        return loader.load();
+    }
+     */
+
     public void openLog(){
 
     }

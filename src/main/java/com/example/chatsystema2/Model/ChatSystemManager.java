@@ -2,6 +2,7 @@ package com.example.chatsystema2.Model;
 
 
 import com.example.chatsystema2.Network.Client;
+import javafx.collections.FXCollections;
 
 import java.beans.PropertyChangeSupport;
 
