@@ -17,7 +17,9 @@ public class ClientFactory {
     private static ClientFactory instance;
     private static final Lock lock = new ReentrantLock(){};
 
-    private ClientFactory(){};
+    //TODO: does this uphold singleton principle?
+    //private ClientFactory(){};
+    public ClientFactory(){};
 
     public static ClientFactory getInstance(){
         if(instance == null){
