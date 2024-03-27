@@ -2,9 +2,12 @@ package com.example.chatsystema2.Model;
 
 
 import com.example.chatsystema2.Network.Client;
+import com.example.chatsystema2.Shared.TransferObject.Message;
 import javafx.collections.FXCollections;
 
+import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeSupport;
+import java.util.ArrayList;
 
 public class ChatSystemManager implements ChatSystemModelInterface {
 
@@ -13,8 +16,20 @@ public class ChatSystemManager implements ChatSystemModelInterface {
 
     public ChatSystemManager(Client client) {
         this.client = client;
-        //client.startClient();
-        //client.addListener("NewLogEntry", this::onNewLogEntry);
+        client.startMsgClient();
+        client.addListener("NewMessage", this::onNewMessage);
     }
 
+    private void onNewMessage(PropertyChangeEvent evt){
+        support.firePropertyChange(evt);
+    }
+    @Override
+    public String sendMessage(String msg) {
+        return client.sendMessage(msg);
+    }
+
+    @Override
+    public ArrayList<Message> getGlobalChat() {
+        return client.getGlobalChat();
+    }
 }
