@@ -1,13 +1,10 @@
-package com.example.chatsystema2.Network;
+package com.example.chatsystema2.Client.Model;
 
 import com.example.chatsystema2.Shared.TransferObject.Message;
-import com.example.chatsystema2.Shared.Util.Subject;
 
 import java.util.ArrayList;
 
-public interface Client extends Subject{
+public interface ChatSystemModelInterface {
     String sendMessage(String msg);
     ArrayList<Message> getGlobalChat();
-
-    void startMsgClient();
 }

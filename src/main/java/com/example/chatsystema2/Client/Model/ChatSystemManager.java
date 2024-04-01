@@ -1,9 +1,8 @@
-package com.example.chatsystema2.Model;
+package com.example.chatsystema2.Client.Model;
 
 
-import com.example.chatsystema2.Network.Client;
+import com.example.chatsystema2.Client.Network.Client;
 import com.example.chatsystema2.Shared.TransferObject.Message;
-import javafx.collections.FXCollections;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeSupport;

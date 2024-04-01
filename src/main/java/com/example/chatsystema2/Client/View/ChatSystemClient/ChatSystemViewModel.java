@@ -1,11 +1,7 @@
-package com.example.chatsystema2.View.ChatSystemClient;
+package com.example.chatsystema2.Client.View.ChatSystemClient;
 
-import com.example.chatsystema2.Model.ChatSystemManager;
 import com.example.chatsystema2.Shared.TransferObject.Message;
-import javafx.beans.Observable;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import com.example.chatsystema2.Model.ChatSystemModelInterface;
+import com.example.chatsystema2.Client.Model.ChatSystemModelInterface;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

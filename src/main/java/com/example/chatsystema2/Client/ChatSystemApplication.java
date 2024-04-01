@@ -1,4 +1,4 @@
-package com.example.chatsystema2;
+package com.example.chatsystema2.Client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

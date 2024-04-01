@@ -1,6 +1,6 @@
-package com.example.chatsystema2.Core;
+package com.example.chatsystema2.Client.Core;
 
-import com.example.chatsystema2.View.ChatSystemClient.ChatSystemViewModel;
+import com.example.chatsystema2.Client.View.ChatSystemClient.ChatSystemViewModel;
 
 public class ViewModelFactory {
     private final ModelFactory mf;

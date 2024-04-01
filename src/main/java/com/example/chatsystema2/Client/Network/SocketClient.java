@@ -1,4 +1,4 @@
-package com.example.chatsystema2.Network;
+package com.example.chatsystema2.Client.Network;
 
 import com.example.chatsystema2.Shared.TransferObject.Message;
 import com.example.chatsystema2.Shared.TransferObject.Request;

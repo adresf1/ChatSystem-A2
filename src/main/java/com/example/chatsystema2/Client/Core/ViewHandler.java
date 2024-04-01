@@ -1,11 +1,10 @@
-package com.example.chatsystema2.Core;
+package com.example.chatsystema2.Client.Core;
 
-import com.example.chatsystema2.ChatSystemApplication;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import com.example.chatsystema2.View.ViewController;
+import com.example.chatsystema2.Client.View.ViewController;
 
 import java.io.IOException;
 
