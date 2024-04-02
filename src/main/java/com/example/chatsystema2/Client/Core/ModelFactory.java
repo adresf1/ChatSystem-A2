@@ -1,7 +1,7 @@
-package com.example.chatsystema2.Core;
+package com.example.chatsystema2.Client.Core;
 
-import com.example.chatsystema2.Model.ChatSystemManager;
-import com.example.chatsystema2.Model.ChatSystemModelInterface;
+import com.example.chatsystema2.Client.Model.ChatSystemManager;
+import com.example.chatsystema2.Client.Model.ChatSystemModelInterface;
 public class ModelFactory {
 
     private final ClientFactory cf;

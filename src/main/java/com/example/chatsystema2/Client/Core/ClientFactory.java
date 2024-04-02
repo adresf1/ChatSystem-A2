@@ -1,15 +1,14 @@
-package com.example.chatsystema2.Core;
+package com.example.chatsystema2.Client.Core;
 
-import com.example.chatsystema2.Network.Client;
-import com.example.chatsystema2.Network.SocketClient;
+import com.example.chatsystema2.Client.Network.Client;
+import com.example.chatsystema2.Client.Network.SocketClient;
 
 
-import java.security.PrivateKey;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 //package socketsuppercase.client.core;
-//import com.example.chatsystema2.Network.Client;
+//import com.example.chatsystema2.Client.Network.Client;
 //import socketsuppercase.client.network.SocketClient;
 
 public class ClientFactory {

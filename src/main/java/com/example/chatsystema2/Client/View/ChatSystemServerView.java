@@ -1,11 +1,10 @@
-package com.example.chatsystema2.View.ChatSystemClient;
+package com.example.chatsystema2.Client.View;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.collections.FXCollections;
 import javafx.scene.control.TextField;
 
-public class ChatSystemViewController {
+public class ChatSystemServerView {
 
 
     @FXML   private TextField textinput;
@@ -13,9 +12,9 @@ public class ChatSystemViewController {
     @FXML    private Button submit;
 
 
-    @FXML public void OnSubmitPressed(){
-
-    }
-
+@FXML public void OnSubmitPressed(){
 
 }
+
+
+    }
